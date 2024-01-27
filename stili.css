@@ -1,0 +1,42 @@
+#header{
+    background-color: yellow;
+    color:white;
+    height:50px;
+    text-align: center;
+}
+*::selection{
+    background-color: red;
+    font-size: 10px;
+   
+
+}
+*{
+    font-family: Franklin Gothic Demi Cond;
+}
+#nav{
+    background-color: lightblue;
+    height:350px;
+    width:200px;
+    float:left;
+    padding: 5px;
+    line-height: 50px;
+    color:white;
+    font-family: arial;
+
+}
+#content{
+  
+
+    background-color: white;
+    padding:5px;
+    float:left;
+}
+#content img{
+    width:120px;
+}
+#footer{
+    clear:both;
+    background-color: blue;
+    text-align: center;
+    color:white;
+}

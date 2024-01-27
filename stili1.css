@@ -1,0 +1,64 @@
+
+body{
+    background-image: url("nycc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}.header img{
+    width:100px;
+    margin-left: 50px;
+    filter:drop-shadow(5px 5px 5px black)
+
+}
+h1{
+    color:white;
+    font-size: 150px;
+    margin-left: 150px;
+    font-family: Bahnschrift SemiBold;
+    filter:drop-shadow(5px 5px 5px black)
+}
+.header{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:50px;
+    margin-left: 900px;
+}
+li a{
+    font-weight: bold;
+    transition: 2s;
+    font-size: 20px;
+    filter:drop-shadow(5px 5px 5px black)
+
+   
+}
+li a:hover{
+    text-decoration-line: underline;
+    color:red;
+
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    background-color: green;
+    border-radius:15px;
+    width:200px;
+    height: 40px;
+    border:none;
+    gap:70px;
+    margin-left: 350px;
+    font-family: arial;
+    font-size:15px ;  
+    font-weight:bold ;
+    cursor:pointer;
+    transition: 1.5s;
+    filter:drop-shadow(5px 5px 5px black)
+}
+button:hover{
+    background-color: red;
+}
